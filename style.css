@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    color: #1e1d1d;
+    padding: 15px 60px;
+    margin-bottom: 30px;
+}
+
+.cart {
+    position: relative;
+    background-color: #463f3f6b;
+    color: #1e1d1d;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cartAmount {
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    font-size: 14px;
+    background-color: violet;
+    color: beige;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(5, 223px);
+    gap: 25px;
+    justify-content: center;
+}
+
+.item {
+    border: 2px solid #f7f7f8;
+    border-radius: 4px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.price-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.bi-dash-lg {
+    color: red;
+}
+
+.bi-plus-lg {
+    color: green;
+}
+
+/*
+ <div class="item">
+        <img width="220" height="300" src="C:\Users\Toluwalade\Pictures\img-2.jpg" alt="Skirt">
+        <div class="details">
+         <h3>Skirt</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         <div class="price-tag">
+             <h3>#2,000</h3>
+             <div class="buttons">
+                 <i class="bi bi-dash-lg"></i>
+                 <div class="quantity">0</div>
+                 <i class="bi bi-plus-lg"></i>
+             </div>
+         </div>
+        </div>
+      </div>
+      <div class="item">
+        <img width="220" height="300" src="C:\Users\Toluwalade\Pictures\img-3.jpg" alt="Top">
+        <div class="details">
+         <h3>Top</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         <div class="price-tag">
+             <h3>#2,000</h3>
+             <div class="buttons">
+                 <i class="bi bi-dash-lg"></i>
+                 <div class="quantity">0</div>
+                 <i class="bi bi-plus-lg"></i>
+             </div>
+         </div>
+        </div>
+      </div>
+      <div class="item">
+          <img width="220" height="300" src="C:\Users\Toluwalade\Pictures\Camera Roll\img-4.webp" alt="Plain Tees">
+        <div class="details">
+         <h3>Plain Tees</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         <div class="price-tag">
+             <h3>#1,500</h3>
+             <div class="buttons">
+                 <i class="bi bi-dash-lg"></i>
+                 <div class="quantity">0</div>
+                 <i class="bi bi-plus-lg"></i>
+             </div>
+         </div>
+        </div>
+    </div>
+      <div class="item">
+        <img width="220" height="300" src="C:\Users\Toluwalade\Pictures\img-5.webp" alt="Jacket">
+        <div class="details">
+         <h3>Jacket</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         <div class="price-tag">
+             <h3>#10,000</h3>
+             <div class="buttons">
+                 <i class="bi bi-dash-lg"></i>
+                 <div class="quantity">0</div>
+                 <i class="bi bi-plus-lg"></i>
+             </div>
+         </div>
+        </div>
+      </div>
