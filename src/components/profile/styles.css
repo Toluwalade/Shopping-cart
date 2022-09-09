@@ -1,0 +1,16 @@
+h1, h2 {
+    text-align: center;
+    position: static;
+    float: inline-start;
+    margin: 2px;
+    padding: 1%;
+    text-align: justify;
+    color: #065f06;
+ }
+ 
+ .profilePhoto {
+     margin: 10px;
+     border: solid #ccc;
+     float: left;
+     width: 180px;
+ }
